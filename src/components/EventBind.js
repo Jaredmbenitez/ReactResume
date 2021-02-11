@@ -40,6 +40,7 @@ class EventBind extends Component{
                 { /* 1.<button className="btn btn-primary" onClick={this.clickHandler.bind(this)}> Click Me</button> */}
                 {/* 2. <button className="btn btn-primary" onClick={() => this.clickHandler()}> Click Me</button> */}
                 {/* 3. <button className="btn btn-primary" onClick={this.clickHandler}> Click Me</button> */}
+                <button className="btn btn-primary" onClick={this.clickHandler}> Click Me</button>
 
 
             </div>
