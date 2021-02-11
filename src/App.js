@@ -7,6 +7,7 @@ import Counter from './components/Counter'
 import FunctionClick from './components/FunctionClick'
 import EventBind from './components/EventBind'
 import 'bootstrap/dist/css/bootstrap.min.css'
+import ParentComponent from './components/ParentComponent'
 
 
 
@@ -14,17 +15,15 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-      
-
+    
       
     <Counter></Counter>
     <EventBind> </EventBind>
+
+    <ParentComponent/>
     
-
-      
-
-      
-        
+    
+  
       </header>
     </div>
   );
